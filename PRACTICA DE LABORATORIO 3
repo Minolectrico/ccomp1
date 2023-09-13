@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int numero{0};
+    cout<<"numero:";
+    cin>>numero;
+    int m=numero+1;
+    while (3<m)
+    {
+        m-=2;
+        if (m%3!=0)
+        {
+            cout<<m<<endl;
+        }
+        
+    }
+    cout<<3<<endl;
+    cout<<2<<endl;
+}
