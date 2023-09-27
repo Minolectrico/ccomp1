@@ -1,0 +1,62 @@
+#include<iostream>
+#include<iomanip>
+#include<array>
+using namespace std;
+int sumar(const int array[],const int tam){
+    long sum=0;
+    for (int i = 0; i < tam; sum+=array[i++]);
+    return sum;
+    }
+int main1(){
+    int arr[]={1,2,3,4,5,6,7};
+    cout<<"suma de los elementos es "<<sumar(arr, 7)<<endl;
+}
+
+int main(){
+    array<int,5>n;
+    for (size_t i{0}; i < n.size(); ++i)
+    {
+        n[i]==0;
+    }
+    cout<<"elemento"<<setw(10)<<"valores"<<endl;
+    for (size_t j{0}; j < n.size(); ++j)
+    {
+        cout <<setw(7)<<j<<setw(10)<<n[j]<<endl;
+    }
+    
+int array[5];
+    // lo inicializamos el arreglo 
+    array[0]=4;
+    array[1]=6;
+    array[2]=8;
+    array[3]=10;
+    array[4]=12;
+    cout<< array[0]<< endl;
+    cout<< array[1]<< endl;
+    cout<< array[2]<< endl;
+    cout<< array[3]<< endl;
+    cout<< array[4]<< endl;
+    int array2[4]={0,1,2,3};
+    cout<< array2[0]<< endl;
+    cout<< array2[1]<< endl;
+    cout<< array2[2]<< endl;
+    cout<< array2[3]<< endl;
+
+
+    int arr[4];
+    cout<<"porfavor ingrese los valores "<<endl;
+    for (int i = 0; i < 4; i++){
+        cin>>arr[i];
+    }
+    cout<< "los valores del arreglo son";
+    for (int i = 0; i < 4; i++)
+    {
+        cout<<" "<<arr[i];
+    }
+    cout<<endl;
+    
+}
+
+
+
+
